@@ -4,7 +4,7 @@ import Counter from '../components/Counter';
 
 beforeEach(() => {
   // Render the Counter component here
-
+  render(<Counter />;
 });
 
 test('renders counter message', () => {
